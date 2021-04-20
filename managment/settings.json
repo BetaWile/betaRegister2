@@ -13,7 +13,7 @@
 "cezalırol": "",
 "booster": "",
 "ekiprol": ""
-},//
+},
 
 "kanallar": {
 "kurallar": "",
@@ -24,21 +24,21 @@
 "isimlog": "",
 "kayıtsızlog": "",
 "genelchat": ""
-},//
+},
 
 "durumlar": {
     "dogru": "",
     "yanlis": ""
-},//
+},
 
 "sunucuayar": {
     "sunucuid": ""
-},//
+},
 
 "taglar": {
     "servertag": "",
     "untag": ""
-},//
+},
 
 "renk": {
     "kirmizi": "#7a000f",
