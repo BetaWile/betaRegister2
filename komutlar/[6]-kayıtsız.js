@@ -15,10 +15,9 @@ if(!member) return message.channel.send(new MessageEmbed().setDescription(`Geçe
 
 if(message.member.roles.highest.position <= member.roles.highest.position) return 
 if(member.manageable)  member.setNickname(member.user.username).catch();
-let digerroller = [];
-member.roles.cache.filter(r => r.id).map(r => {digerroller.push(r.id)})
-member.roles.remove(digerroller)
-await member.roles.add(settings.roller.kayıtsızrol)
+member.roles.add(settings.roller.kayıtsızrol);
+member.roles.cache.forEach(r => {
+member.roles.remove(r.id)});
 message.channel.send(new MessageEmbed().setDescription(`${member} Adlı Kullanıcı ${message.author} Tarafından Kayıtsız'a Atıldı !`)).then(msg => msg.delete({timeout: 4000}))
 
 message.react(settings.durumlar.dogru)
