@@ -1,7 +1,7 @@
 # Discord Register Bot
 
 
- - [Discord Register Bot](https://github.com/beT4ww/bet4Register)
+ - [Discord Register Bot](https://github.com/beT4w/bet4Register)
       - [Kurulum](#kurulum)
       - [İçerikler](#İçerikler)
       - [İletişim](#İletişim)
