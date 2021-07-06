@@ -1,0 +1,19 @@
+{
+  "name": "discord-register-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "beta.js",
+  "scripts": {
+    "test": "node beta.js"
+  },
+  "keywords": [],
+  "author": "Beta",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "quick.db": "^7.1.3"
+  }
+}

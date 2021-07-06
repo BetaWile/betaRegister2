@@ -1,0 +1,40 @@
+{
+
+    "Roles": {
+        "BoyRole1": "",
+        "BoyRole2": "",
+        "GirlRole1": "",
+        "GirlRole2": "",
+        "Unregister": "",
+        "Registerer": "",
+        "ustyetki": "",
+        "TagRole": "",
+        "Suspicious": "",
+        "Booster": "",
+        "Jail": ""
+    },
+        "Colors": {
+            "Red": "ff0000",
+            "Magenta": "660099",
+            "Black": "000000",
+            "Gold": "ffd700",
+            "Pink": "ffcbdb",
+            "Green": "66ff00",
+            "Yellow": "ffff00"
+    },
+        "ServerSettings": {
+            "ServerID": "",
+            "Tag": ""
+    },
+        "Channels": {
+            "RegisterChat": "",
+            "RegisterLog": "",
+            "TagLog": "",
+            "Rules": "",
+            "GeneralChat": ""
+        },
+        "Welcome": {
+            "WelcomeChat": "",
+            "WelcomeName": "İsim | Yaş"
+        }
+}
