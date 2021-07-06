@@ -1,7 +1,7 @@
 const { MessageEmbed, Client, Message, DiscordAPIError } = require("discord.js");
 const db = require("quick.db");
 const Main = require('../../src/Settings/Settings.json');
-const config = require('../../src/Settings/Config.json');
+const Settings = require('../../src/Settings/Config.json');
 const moment = require("moment");
 
 exports.beta = async (client, message, args) => {
