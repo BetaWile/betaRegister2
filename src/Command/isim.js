@@ -1,8 +1,10 @@
 const { MessageEmbed, Client, Message } = require("discord.js");
+const Main = require('../../src/Settings/Settings.json');
+const Settings = require('../../src/Settings/Config.json');
 
 exports.beta = async (client, message, args) => {
 
-  if (!message.member.hasPermission("MANAGE_NICKNAMES")) return message.channel.send(new MessageEmbed().setAuthor("Yetersiz Yetki").setDescription(`**\`»\`** Bu komutu kullanabilmek için yeterli yetkiye sahip olman gerekmekte.`).setColor("GOLD")).then(x => x.delete({ timeout: 5500 }));
+    if (!message.member.hasPermission("MANAGE_NICKNAMES") && !message.member.roles.cache.has(Settings.Roles.Registerer)) return message.channel.send(new MessageEmbed().setAuthor("Yetersiz Yetki").setDescription(`**\`»\`** Bu komutu kullanabilmek için yeterli yetkiye sahip olman gerekmekte.`).setColor("GOLD")).then(x => x.delete({ timeout: 5500 }));
 
   let beta = message.mentions.members.first() || message.guild.members.cache.get(args[0])
   let isim = args[1]
