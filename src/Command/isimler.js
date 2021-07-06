@@ -1,6 +1,7 @@
 const { MessageEmbed, Message, Client } = require("discord.js");
 const db = require("quick.db");
-const Settings = require('../Settings/Config.json');
+const Main = require('../../src/Settings/Settings.json');
+const Settings = require('../../src/Settings/Config.json');
 const moment = require("moment");
 exports.beta = async (client, message, args) => {
 
