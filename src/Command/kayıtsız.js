@@ -1,5 +1,6 @@
 const { MessageEmbed } = require('discord.js');
-const Settings = require('../Settings/Config.json');
+const Main = require('../../src/Settings/Settings.json');
+const config = require('../../src/Settings/Config.json');
 
 exports.beta = async (client, message, args) => {
 
